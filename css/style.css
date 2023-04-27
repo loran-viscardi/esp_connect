@@ -1,18 +1,19 @@
 /*
-	colors:
+        colors:
 
-	temp:	#F53700
-	hum:	#006F9A
+        temp:   #F53700
+        hum:    #006F9A
 
 
 */
 
 *{
-    font-family: Verdana;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
     margin: 0;
+    background-color: #212121;
 }
 
 path {
@@ -21,46 +22,47 @@ path {
 }
 
 .path1 {
-    stroke: #F53700;
-    stroke-width: 2;
+    stroke: #ff0000;
+    stroke-width: 4;
     fill: none;
 }
 
 .circle1{
-    stroke: #F53700;
-    fill: white;
-    stroke-width: 2;
+    stroke: #ff0000;
+    fill: cornsilk;
+    stroke-width: 8;
 }
 
 .circle2{
     stroke: #006F9A;
-    fill: white;
-    stroke-width: 2;
+    fill: cornsilk;
+    stroke-width: 8;
 }
 
 
 .path2 {
     stroke: #006F9A;
-    stroke-width: 2;
+    stroke-width: 4;
     fill: none;
 }
 
 .axis path,
 .axis line {
     fill: none;
-    stroke: black;
-    stroke-width: 1;
-    shape-rendering: crispEdges;
+    stroke: cornsilk;
+    stroke-width: 5;
+    shape-rendering:crispEdges;
 }
 
 .axis text {
     font-family: sans-serif;
     font-size: 11px;
+    stroke:cornsilk;
 
 }
 
 line {
-    stroke: black;
+    stroke: cornsilk;
 }
 
 text {
@@ -68,31 +70,33 @@ text {
     font-size: 9pt;
 }
 svg{
-    border: 1px solid #ccc;
-    background: #efefef;
-    padding: 0px 10px 70px 70px;
+    border: 1px solid cornsilk;
+    background: #181818;
+    padding: 70px 70px 70px 70px;
 }
 
 .tooltip{
     background: #fefefe;
     padding: 7px 10px;
     border-radius: 3px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px 2px #ccc;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px 2px #bbbbbb;
 }
 
 #head{
-	width: 1100px;
-    margin: 0 0 0 50px;
+        width: 1100px;
+    margin: 0 0 0 70px;
+    color:cornsilk;
 }
 
 #head h1{
-    margin-right: 50px;
-    display: inline-block;
+    margin-right: 100px;
+    display:inline-block;
+    color:cornsilk;
 }
 
 .text_weight{
-   	font-weight: 700;
+        font-weight: 700;
 }
 
 nav{
@@ -100,59 +104,59 @@ nav{
 }
 
 nav ul{
-    padding: 0;
-	display: inline-block;
+    padding: 10;
+        display: inline-block;
 }
 
 nav ul li{
     display: inline-block;
     padding: 10px;
-    border-bottom: 2px solid #aaa;
+    border-bottom: 2px solid #212121;
     margin-right: 10px;
 }
 
 nav ul li a{
     text-decoration: none;
-    color:#aaa;
+    color:cornsilk;
     font-weight: 700;
 }
 
 nav ul li a:hover{
-    color:#000;
+    color:#5b5b5b;
 }
 
 #leftArrow, #rightArrow{
-	width: 44px;
-	height: 44px;
-	display: inline-block;
-	vertical-align: bottom;
+        width: 44px;
+        height: 44px;
+        display: inline-block;
+        vertical-align: bottom;
 }
 
 #leftArrow:hover{
-	background: url('../imgs/arrow-left-hover.png') no-repeat;
-	cursor: pointer;
+        background: url('../imgs/arrow-left-hover.png') no-repeat;
+        cursor: pointer;
 }
 
 #rightArrow:hover{
-	background: url('../imgs/arrow-right-hover.png') no-repeat;
-	cursor: pointer;
+        background: url('../imgs/arrow-right-hover.png') no-repeat;
+        cursor: pointer;
 }
 
 #leftArrow{
-	background: url('../imgs/arrow-left.png') no-repeat;
+        background: url('../imgs/arrow-left.png') no-repeat;
   margin-left: 50px;
 }
 
 #rightArrow{
-	background: url('../imgs/arrow-right.png') no-repeat;
+        background: url('../imgs/arrow-right.png') no-repeat;
 }
 
 #nav2{
   display: inline-block;
-	float:right;
-	margin-top: 32px;
+        float:right;
+        margin-top: 32px;
 }
 
 #nav2 div{
-	display: inline-block;
+        display: inline-block;
 }
